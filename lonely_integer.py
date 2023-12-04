@@ -11,7 +11,7 @@
 # #
 # # The function is expected to return an INTEGER.
 # # The function accepts INTEGER_ARRAY a as parameter.
-# #
+
 
 def lonelyinteger(my_list):
     """Find the only integer which is not in a pair.

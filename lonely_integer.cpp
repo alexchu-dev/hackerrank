@@ -18,7 +18,7 @@ int lonelyinteger(vector<int> a)
     int ret = 0;
     for (auto num : a)
     {
-        ret ^= num; // By using Bit-wise operator XOR, we are able to subtract the duplicated num in the vector "a" from the sumed up ret.
+        ret ^= num; // By using Bit-wise operator XOR, we are able to subtract the duplicated num in the vector "a" from the sumed up ret
     }
     return ret;
 }
